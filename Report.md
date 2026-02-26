@@ -1,4 +1,4 @@
-# AI Agent Experiment Report: Search Intent & Query Analysis
+# Search Intent & Query Analysis
 
 > **Generated:** 2026-02-26 13:24
 > **Search Term:** iPhone 17e
