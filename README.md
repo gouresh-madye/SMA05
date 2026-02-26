@@ -1,4 +1,4 @@
-# AI Agent Experiment: Search Intent & Query Analysis (iPhone 17e)
+# Social Media Analysis (SMA) Experiment: Search Intent & Query Analysis (iPhone 17e)
 
 ## 🎯 Objective
 
