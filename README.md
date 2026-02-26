@@ -1,10 +1,10 @@
 # Social Media Analysis (SMA) Experiment: Search Intent & Query Analysis (iPhone 17e)
 
-## 🎯 Objective
+## Objective
 
 This project analyzes public search queries related to the **iPhone 17e** sourced from AnswerThePublic. The goal is to classify search intent, identify keyword patterns, detect user concerns, and propose an actionable content strategy.
 
-## 📁 Project Structure
+## Project Structure
 
 - [Report.md](./Report.md): Detailed analysis and final findings.
 - [code/](./code/): Python scripts for data processing (`experiment.py`) and visualization (`visualize.py`).
@@ -12,7 +12,7 @@ This project analyzes public search queries related to the **iPhone 17e** source
 - [charts/](./charts/): Generated visualizations of the data analysis.
 - [INSTRUCTIONS.md](./INSTRUCTIONS.md): Original experiment requirements and workflow.
 
-## 🚀 Key Findings
+## Key Findings
 
 - **Informational Dominance:** 82.4% of queries are informational, indicating users are in the research phase.
 - **Top Concerns:** Release date (10.1%), Pricing (8.3%), and Specifications (8.3%) are the primary focus areas.
@@ -23,7 +23,7 @@ This project analyzes public search queries related to the **iPhone 17e** source
   - Comparative: 6.0%
   - Navigational: 0.3%
 
-## 📊 Visual Analysis (Outputs)
+## Visual Analysis (Outputs)
 
 Below are the key insights generated from the dataset:
 
@@ -37,7 +37,7 @@ Below are the key insights generated from the dataset:
 ![Top 20 Keywords](./charts/03_top_keywords_bar.png)
 ![Trending Concerns](./charts/04_trending_concerns_bar.png)
 
-## 🛠️ How to Run
+## How to Run
 
 1. Ensure you have the required datasets in `./data/`.
 2. Run `python code/experiment.py` to clean the data and perform intent classification.
