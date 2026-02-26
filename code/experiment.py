@@ -508,8 +508,8 @@ print("SAVING OUTPUTS")
 print("=" * 70)
 
 # Save cleaned dataset
-df.to_csv("Cleaned_Dataset.csv", index=False)
-print(f"\n  ✅ Saved: Cleaned_Dataset.csv ({len(df)} rows, {len(df.columns)} columns)")
+df.to_csv("../data/Cleaned_Dataset.csv", index=False)
+print(f"\n  ✅ Saved: ../data/Cleaned_Dataset.csv ({len(df)} rows, {len(df.columns)} columns)")
 
 # Generate Experiment Report
 report_lines = []
@@ -683,15 +683,15 @@ report_lines.append("")
 
 report_content = "\n".join(report_lines)
 
-with open("Experiment_Report.md", "w") as f:
+with open("../Report.md", "w") as f:
     f.write(report_content)
 
-print(f"  ✅ Saved: Experiment_Report.md")
+print(f"  ✅ Saved: ../Report.md")
 
 print("\n" + "=" * 70)
 print("✅ EXPERIMENT COMPLETE")
 print("=" * 70)
 print(f"\nOutputs:")
-print(f"  1. Cleaned_Dataset.csv  — {len(df)} rows with Intent_Category column")
-print(f"  2. Experiment_Report.md — Full experiment report with all 7 sections")
+print(f"  1. ../data/Cleaned_Dataset.csv  — {len(df)} rows with Intent_Category column")
+print(f"  2. ../Report.md — Full experiment report with all 7 sections")
 print()
